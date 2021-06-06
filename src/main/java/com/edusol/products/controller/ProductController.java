@@ -36,6 +36,7 @@ public class ProductController {
 	
 	@PostMapping("/add-product")
 	public Object addProduct(@RequestBody Product product) {
+		logger.info(product.toString());
 		return productService.addProduct(product);	
 	}
 	
