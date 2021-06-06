@@ -1,0 +1,674 @@
+[2021-05-29T12:41:30.030Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ProductsApplication on mayur-Lenovo-G580 with PID 9224 (/home/mayur/Desktop/java prjct/products/target/classes started by mayur in /home/mayur/Desktop/java prjct/products)
+[2021-05-29T12:41:30.030Z] [org.springframework.boot.SpringApplication] [main] [648] [INFO ] No active profile set, falling back to default profiles: default
+[2021-05-29T12:41:32.032Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [127] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-05-29T12:41:32.032Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [187] [INFO ] Finished Spring Data repository scanning in 151ms. Found 1 JPA repository interfaces.
+[2021-05-29T12:41:34.034Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8081 (http)
+[2021-05-29T12:41:34.034Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-05-29T12:41:34.034Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.45]
+[2021-05-29T12:41:34.034Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-05-29T12:41:34.034Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [285] [INFO ] Root WebApplicationContext: initialization completed in 4517 ms
+[2021-05-29T12:41:35.035Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-05-29T12:41:35.035Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.30.Final
+[2021-05-29T12:41:36.036Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-05-29T12:41:36.036Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2021-05-29T12:41:37.037Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2021-05-29T12:41:37.037Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2021-05-29T12:41:38.038Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-05-29T12:41:38.038Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [419] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-29T12:41:39.039Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [220] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-05-29T12:41:39.039Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-05-29T12:41:39.039Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8081 (http) with context path ''
+[2021-05-29T12:41:39.039Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ProductsApplication in 11.504 seconds (JVM running for 12.873)
+[2021-05-29T12:45:57.057Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8081-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-05-29T12:45:57.057Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8081-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-05-29T12:45:57.057Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8081-exec-2] [547] [INFO ] Completed initialization in 13 ms
+[2021-05-29T12:45:57.057Z] [com.edusol.products.controller.ProductController] [http-nio-8081-exec-2] [33] [INFO ] [Product [productId=1, name=Mobile, price=15000.0, category=electronic], Product [productId=2, name=Laptop, price=45000.0, category=electronic], Product [productId=3, name=Books, price=1500.0, category=education], Product [productId=4, name=bat, price=2500.0, category=Sport], Product [productId=6, name=cd, price=60000.0, category=x]]
+[2021-05-29T12:51:12.012Z] [com.edusol.products.controller.ProductController] [http-nio-8081-exec-7] [33] [INFO ] [Product [productId=1, name=Mobile, price=15000.0, category=electronic], Product [productId=2, name=Laptop, price=45000.0, category=electronic], Product [productId=3, name=Books, price=1500.0, category=education], Product [productId=4, name=bat, price=2500.0, category=Sport], Product [productId=6, name=cd, price=60000.0, category=x]]
+[2021-05-29T13:19:51.051Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [SpringContextShutdownHook] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-05-29T13:19:51.051Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringContextShutdownHook] [601] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-29T13:19:51.051Z] [com.zaxxer.hikari.HikariDataSource] [SpringContextShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2021-05-29T13:19:51.051Z] [com.zaxxer.hikari.HikariDataSource] [SpringContextShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2021-05-29T13:19:58.058Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ProductsApplication on mayur-Lenovo-G580 with PID 10607 (/home/mayur/Desktop/java prjct/products/target/classes started by mayur in /home/mayur/Desktop/java prjct/products)
+[2021-05-29T13:19:58.058Z] [org.springframework.boot.SpringApplication] [main] [648] [INFO ] No active profile set, falling back to default profiles: default
+[2021-05-29T13:20:00.000Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [127] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-05-29T13:20:00.000Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [187] [INFO ] Finished Spring Data repository scanning in 81ms. Found 1 JPA repository interfaces.
+[2021-05-29T13:20:01.001Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8081 (http)
+[2021-05-29T13:20:01.001Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-05-29T13:20:01.001Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.45]
+[2021-05-29T13:20:01.001Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-05-29T13:20:01.001Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [285] [INFO ] Root WebApplicationContext: initialization completed in 2542 ms
+[2021-05-29T13:20:01.001Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-05-29T13:20:01.001Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.30.Final
+[2021-05-29T13:20:02.002Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-05-29T13:20:02.002Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2021-05-29T13:20:02.002Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2021-05-29T13:20:02.002Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2021-05-29T13:20:03.003Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-05-29T13:20:03.003Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [419] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-29T13:20:04.004Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [220] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-05-29T13:20:04.004Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-05-29T13:20:04.004Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8081 (http) with context path ''
+[2021-05-29T13:20:04.004Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ProductsApplication in 6.407 seconds (JVM running for 7.242)
+[2021-05-29T13:20:13.013Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8081-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-05-29T13:20:13.013Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8081-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-05-29T13:20:13.013Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8081-exec-2] [547] [INFO ] Completed initialization in 14 ms
+[2021-05-29T13:20:13.013Z] [com.edusol.products.controller.ProductController] [http-nio-8081-exec-2] [33] [INFO ] [Product [productId=1, name=Mobile, price=15000.0, category=electronic], Product [productId=2, name=Laptop, price=45000.0, category=electronic], Product [productId=3, name=Books, price=1500.0, category=education], Product [productId=4, name=bat, price=2500.0, category=Sport], Product [productId=6, name=cd, price=60000.0, category=x]]
+[2021-05-29T13:20:58.058Z] [com.edusol.products.service.ProductService] [http-nio-8081-exec-3] [28] [INFO ] Product Added Successfully.
+[2021-05-29T13:21:33.033Z] [com.edusol.products.controller.ProductController] [http-nio-8081-exec-4] [33] [INFO ] [Product [productId=1, name=Mobile, price=15000.0, category=electronic], Product [productId=2, name=Laptop, price=45000.0, category=electronic], Product [productId=3, name=Books, price=1500.0, category=education], Product [productId=4, name=bat, price=2500.0, category=Sport], Product [productId=6, name=cd, price=60000.0, category=x], Product [productId=7, name=bcd, price=5000.0, category=xy]]
+[2021-05-29T13:25:58.058Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [SpringContextShutdownHook] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-05-29T13:25:58.058Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringContextShutdownHook] [601] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-29T13:25:58.058Z] [com.zaxxer.hikari.HikariDataSource] [SpringContextShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2021-05-29T13:25:58.058Z] [com.zaxxer.hikari.HikariDataSource] [SpringContextShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2021-05-29T13:26:06.006Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ProductsApplication on mayur-Lenovo-G580 with PID 11003 (/home/mayur/Desktop/java prjct/products/target/classes started by mayur in /home/mayur/Desktop/java prjct/products)
+[2021-05-29T13:26:06.006Z] [org.springframework.boot.SpringApplication] [main] [648] [INFO ] No active profile set, falling back to default profiles: default
+[2021-05-29T13:26:07.007Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [127] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-05-29T13:26:07.007Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [187] [INFO ] Finished Spring Data repository scanning in 85ms. Found 1 JPA repository interfaces.
+[2021-05-29T13:26:08.008Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8081 (http)
+[2021-05-29T13:26:08.008Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-05-29T13:26:08.008Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.45]
+[2021-05-29T13:26:09.009Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-05-29T13:26:09.009Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [285] [INFO ] Root WebApplicationContext: initialization completed in 2740 ms
+[2021-05-29T13:26:09.009Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-05-29T13:26:09.009Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.30.Final
+[2021-05-29T13:26:09.009Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-05-29T13:26:09.009Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2021-05-29T13:26:10.010Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2021-05-29T13:26:10.010Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2021-05-29T13:26:11.011Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-05-29T13:26:11.011Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [419] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-29T13:26:11.011Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [220] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-05-29T13:26:12.012Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-05-29T13:26:12.012Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8081 (http) with context path ''
+[2021-05-29T13:26:12.012Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ProductsApplication in 6.887 seconds (JVM running for 7.68)
+[2021-05-29T13:26:54.054Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8081-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-05-29T13:26:54.054Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8081-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-05-29T13:26:54.054Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8081-exec-2] [547] [INFO ] Completed initialization in 20 ms
+[2021-05-29T13:26:54.054Z] [com.edusol.products.service.ProductService] [http-nio-8081-exec-2] [27] [INFO ] Product [productId=8, name=abcd, price=54000.0, category=xyz]
+[2021-05-29T13:26:55.055Z] [com.edusol.products.service.ProductService] [http-nio-8081-exec-2] [29] [INFO ] Product Added Successfully.
+[2021-05-29T13:47:02.002Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [SpringContextShutdownHook] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-05-29T13:47:02.002Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringContextShutdownHook] [601] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-29T13:47:02.002Z] [com.zaxxer.hikari.HikariDataSource] [SpringContextShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2021-05-29T13:47:02.002Z] [com.zaxxer.hikari.HikariDataSource] [SpringContextShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2021-05-29T13:47:10.010Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ProductsApplication on mayur-Lenovo-G580 with PID 11740 (/home/mayur/Desktop/java prjct/products/target/classes started by mayur in /home/mayur/Desktop/java prjct/products)
+[2021-05-29T13:47:10.010Z] [org.springframework.boot.SpringApplication] [main] [648] [INFO ] No active profile set, falling back to default profiles: default
+[2021-05-29T13:47:11.011Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [127] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-05-29T13:47:11.011Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [187] [INFO ] Finished Spring Data repository scanning in 90ms. Found 1 JPA repository interfaces.
+[2021-05-29T13:47:12.012Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8081 (http)
+[2021-05-29T13:47:12.012Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-05-29T13:47:12.012Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.45]
+[2021-05-29T13:47:12.012Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-05-29T13:47:12.012Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [285] [INFO ] Root WebApplicationContext: initialization completed in 2410 ms
+[2021-05-29T13:47:13.013Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-05-29T13:47:13.013Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.30.Final
+[2021-05-29T13:47:13.013Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-05-29T13:47:13.013Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2021-05-29T13:47:14.014Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2021-05-29T13:47:14.014Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2021-05-29T13:47:14.014Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-05-29T13:47:14.014Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [419] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-29T13:47:15.015Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [220] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-05-29T13:47:15.015Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-05-29T13:47:16.016Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8081 (http) with context path ''
+[2021-05-29T13:47:16.016Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ProductsApplication in 6.412 seconds (JVM running for 7.233)
+[2021-05-29T13:47:44.044Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8081-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-05-29T13:47:44.044Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8081-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-05-29T13:47:44.044Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8081-exec-2] [547] [INFO ] Completed initialization in 16 ms
+[2021-05-29T13:47:44.044Z] [com.edusol.products.service.ProductService] [http-nio-8081-exec-2] [29] [INFO ] Product [productId=9, name=abcde, price=55000.0, category=wxyz]
+[2021-05-29T13:47:44.044Z] [com.edusol.products.service.ProductService] [http-nio-8081-exec-2] [31] [INFO ] Product Added Successfully.
+[2021-05-29T13:48:35.035Z] [com.edusol.products.controller.ProductController] [http-nio-8081-exec-3] [33] [INFO ] [Product [productId=1, name=Mobile, price=15000.0, category=electronic], Product [productId=2, name=Laptop, price=45000.0, category=electronic], Product [productId=3, name=Books, price=1500.0, category=education], Product [productId=4, name=bat, price=2500.0, category=Sport], Product [productId=6, name=cd, price=60000.0, category=x], Product [productId=7, name=bcd, price=5000.0, category=xy], Product [productId=8, name=abcd, price=54000.0, category=xyz], Product [productId=9, name=abcde, price=55000.0, category=wxyz]]
+[2021-05-29T13:58:55.055Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [SpringContextShutdownHook] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-05-29T13:58:55.055Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringContextShutdownHook] [601] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-29T13:58:55.055Z] [com.zaxxer.hikari.HikariDataSource] [SpringContextShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2021-05-29T13:58:55.055Z] [com.zaxxer.hikari.HikariDataSource] [SpringContextShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2021-05-29T17:01:37.037Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ProductsApplication on mayur-Lenovo-G580 with PID 3341 (/home/mayur/Desktop/java prjct/products/target/classes started by mayur in /home/mayur/Desktop/java prjct/products)
+[2021-05-29T17:01:37.037Z] [org.springframework.boot.SpringApplication] [main] [648] [INFO ] No active profile set, falling back to default profiles: default
+[2021-05-29T17:01:40.040Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [127] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-05-29T17:01:40.040Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [187] [INFO ] Finished Spring Data repository scanning in 160ms. Found 1 JPA repository interfaces.
+[2021-05-29T17:01:42.042Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8081 (http)
+[2021-05-29T17:01:42.042Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-05-29T17:01:42.042Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.45]
+[2021-05-29T17:01:42.042Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-05-29T17:01:42.042Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [285] [INFO ] Root WebApplicationContext: initialization completed in 4368 ms
+[2021-05-29T17:01:43.043Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-05-29T17:01:43.043Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.30.Final
+[2021-05-29T17:01:43.043Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-05-29T17:01:44.044Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2021-05-29T17:01:45.045Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2021-05-29T17:01:45.045Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2021-05-29T17:01:46.046Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-05-29T17:01:46.046Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [419] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-29T17:01:47.047Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [220] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-05-29T17:01:47.047Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-05-29T17:01:48.048Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8081 (http) with context path ''
+[2021-05-29T17:01:48.048Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ProductsApplication in 12.019 seconds (JVM running for 13.837)
+[2021-05-29T17:03:33.033Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8081-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-05-29T17:03:33.033Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8081-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-05-29T17:03:33.033Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8081-exec-2] [547] [INFO ] Completed initialization in 11 ms
+[2021-05-29T17:03:34.034Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8081-exec-2] [175] [ERROR] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: class java.util.Optional cannot be cast to class java.util.List (java.util.Optional and java.util.List are in module java.base of loader 'bootstrap')] with root cause
+java.lang.ClassCastException: class java.util.Optional cannot be cast to class java.util.List (java.util.Optional and java.util.List are in module java.base of loader 'bootstrap')
+	at com.edusol.products.controller.ProductController.getProductById(ProductController.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[2021-05-29T17:03:41.041Z] [com.edusol.products.controller.ProductController] [http-nio-8081-exec-4] [33] [INFO ] [Product [productId=1, name=Mobile, price=15000.0, category=electronic], Product [productId=2, name=Laptop, price=45000.0, category=electronic], Product [productId=3, name=Books, price=1500.0, category=education], Product [productId=4, name=bat, price=2500.0, category=Sport], Product [productId=6, name=cd, price=60000.0, category=x], Product [productId=7, name=bcd, price=5000.0, category=xy], Product [productId=8, name=abcd, price=54000.0, category=xyz], Product [productId=9, name=abcde, price=55000.0, category=wxyz]]
+[2021-05-29T17:03:50.050Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8081-exec-5] [175] [ERROR] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: class java.util.Optional cannot be cast to class java.util.List (java.util.Optional and java.util.List are in module java.base of loader 'bootstrap')] with root cause
+java.lang.ClassCastException: class java.util.Optional cannot be cast to class java.util.List (java.util.Optional and java.util.List are in module java.base of loader 'bootstrap')
+	at com.edusol.products.controller.ProductController.getProductById(ProductController.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[2021-05-29T17:05:40.040Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [SpringContextShutdownHook] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-05-29T17:05:40.040Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringContextShutdownHook] [601] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-29T17:05:40.040Z] [com.zaxxer.hikari.HikariDataSource] [SpringContextShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2021-05-29T17:05:40.040Z] [com.zaxxer.hikari.HikariDataSource] [SpringContextShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2021-05-29T17:12:07.007Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ProductsApplication on mayur-Lenovo-G580 with PID 4608 (/home/mayur/Desktop/java prjct/products/target/classes started by mayur in /home/mayur/Desktop/java prjct/products)
+[2021-05-29T17:12:07.007Z] [org.springframework.boot.SpringApplication] [main] [648] [INFO ] No active profile set, falling back to default profiles: default
+[2021-05-29T17:12:09.009Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [127] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-05-29T17:12:09.009Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [187] [INFO ] Finished Spring Data repository scanning in 77ms. Found 1 JPA repository interfaces.
+[2021-05-29T17:12:10.010Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8081 (http)
+[2021-05-29T17:12:10.010Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-05-29T17:12:10.010Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.45]
+[2021-05-29T17:12:10.010Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-05-29T17:12:10.010Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [285] [INFO ] Root WebApplicationContext: initialization completed in 2421 ms
+[2021-05-29T17:12:10.010Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-05-29T17:12:10.010Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.30.Final
+[2021-05-29T17:12:10.010Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-05-29T17:12:11.011Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2021-05-29T17:12:11.011Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2021-05-29T17:12:11.011Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2021-05-29T17:12:12.012Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-05-29T17:12:12.012Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [419] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-29T17:12:13.013Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [220] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-05-29T17:12:13.013Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-05-29T17:12:13.013Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8081 (http) with context path ''
+[2021-05-29T17:12:13.013Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ProductsApplication in 6.543 seconds (JVM running for 7.238)
+[2021-05-29T17:12:21.021Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8081-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-05-29T17:12:21.021Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8081-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-05-29T17:12:21.021Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8081-exec-2] [547] [INFO ] Completed initialization in 12 ms
+[2021-05-29T17:12:22.022Z] [com.edusol.products.controller.ProductController] [http-nio-8081-exec-2] [33] [INFO ] [Product [productId=1, name=Mobile, price=15000.0, category=electronic], Product [productId=2, name=Laptop, price=45000.0, category=electronic], Product [productId=3, name=Books, price=1500.0, category=education], Product [productId=4, name=bat, price=2500.0, category=Sport], Product [productId=6, name=cd, price=60000.0, category=x], Product [productId=7, name=bcd, price=5000.0, category=xy], Product [productId=8, name=abcd, price=54000.0, category=xyz], Product [productId=9, name=abcde, price=55000.0, category=wxyz]]
+[2021-05-29T17:14:56.056Z] [com.edusol.products.controller.ProductController] [http-nio-8081-exec-7] [33] [INFO ] [Product [productId=1, name=Mobile, price=15000.0, category=electronic], Product [productId=2, name=Laptop, price=45000.0, category=electronic], Product [productId=3, name=Books, price=1500.0, category=education], Product [productId=4, name=bat, price=2500.0, category=Sport], Product [productId=6, name=cd, price=60000.0, category=x], Product [productId=7, name=bcd, price=5000.0, category=xy], Product [productId=8, name=abcd, price=54000.0, category=xyz], Product [productId=9, name=abcde, price=55000.0, category=wxyz]]
+[2021-05-29T17:16:08.008Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [SpringContextShutdownHook] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-05-29T17:16:08.008Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringContextShutdownHook] [601] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-29T17:16:08.008Z] [com.zaxxer.hikari.HikariDataSource] [SpringContextShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2021-05-29T17:16:08.008Z] [com.zaxxer.hikari.HikariDataSource] [SpringContextShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2021-05-29T17:17:08.008Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ProductsApplication on mayur-Lenovo-G580 with PID 4850 (/home/mayur/Desktop/java prjct/products/target/classes started by mayur in /home/mayur/Desktop/java prjct/products)
+[2021-05-29T17:17:08.008Z] [org.springframework.boot.SpringApplication] [main] [648] [INFO ] No active profile set, falling back to default profiles: default
+[2021-05-29T17:17:09.009Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [127] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-05-29T17:17:09.009Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [187] [INFO ] Finished Spring Data repository scanning in 85ms. Found 1 JPA repository interfaces.
+[2021-05-29T17:17:10.010Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8081 (http)
+[2021-05-29T17:17:11.011Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-05-29T17:17:11.011Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.45]
+[2021-05-29T17:17:11.011Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-05-29T17:17:11.011Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [285] [INFO ] Root WebApplicationContext: initialization completed in 2480 ms
+[2021-05-29T17:17:11.011Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-05-29T17:17:11.011Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.30.Final
+[2021-05-29T17:17:11.011Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-05-29T17:17:11.011Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2021-05-29T17:17:12.012Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2021-05-29T17:17:12.012Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2021-05-29T17:17:13.013Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-05-29T17:17:13.013Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [419] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-29T17:17:13.013Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [220] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-05-29T17:17:14.014Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-05-29T17:17:14.014Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8081 (http) with context path ''
+[2021-05-29T17:17:14.014Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ProductsApplication in 6.386 seconds (JVM running for 7.152)
+[2021-05-29T17:17:21.021Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8081-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-05-29T17:17:21.021Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8081-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-05-29T17:17:21.021Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8081-exec-2] [547] [INFO ] Completed initialization in 13 ms
+[2021-05-29T17:17:21.021Z] [com.edusol.products.controller.ProductController] [http-nio-8081-exec-2] [33] [INFO ] [Product [productId=1, name=Mobile, price=15000.0, category=electronic], Product [productId=2, name=Laptop, price=45000.0, category=electronic], Product [productId=3, name=Books, price=1500.0, category=education], Product [productId=4, name=bat, price=2500.0, category=Sport], Product [productId=6, name=cd, price=60000.0, category=x], Product [productId=7, name=bcd, price=5000.0, category=xy], Product [productId=8, name=abcd, price=54000.0, category=xyz], Product [productId=9, name=abcde, price=55000.0, category=wxyz]]
+[2021-05-29T17:17:57.057Z] [com.edusol.products.service.ProductService] [http-nio-8081-exec-3] [42] [INFO ] electronic
+[2021-05-29T17:23:21.021Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [SpringContextShutdownHook] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-05-29T17:23:21.021Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringContextShutdownHook] [601] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-29T17:23:21.021Z] [com.zaxxer.hikari.HikariDataSource] [SpringContextShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2021-05-29T17:23:21.021Z] [com.zaxxer.hikari.HikariDataSource] [SpringContextShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2021-05-29T17:24:26.026Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ProductsApplication on mayur-Lenovo-G580 with PID 5155 (/home/mayur/Desktop/java prjct/products/target/classes started by mayur in /home/mayur/Desktop/java prjct/products)
+[2021-05-29T17:24:26.026Z] [org.springframework.boot.SpringApplication] [main] [648] [INFO ] No active profile set, falling back to default profiles: default
+[2021-05-29T17:24:27.027Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [127] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-05-29T17:24:27.027Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [187] [INFO ] Finished Spring Data repository scanning in 81ms. Found 1 JPA repository interfaces.
+[2021-05-29T17:24:28.028Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8081 (http)
+[2021-05-29T17:24:28.028Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-05-29T17:24:28.028Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.45]
+[2021-05-29T17:24:29.029Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-05-29T17:24:29.029Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [285] [INFO ] Root WebApplicationContext: initialization completed in 2253 ms
+[2021-05-29T17:24:29.029Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-05-29T17:24:29.029Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.30.Final
+[2021-05-29T17:24:29.029Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-05-29T17:24:29.029Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2021-05-29T17:24:30.030Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2021-05-29T17:24:30.030Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2021-05-29T17:24:30.030Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-05-29T17:24:30.030Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [419] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-29T17:24:31.031Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [220] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-05-29T17:24:31.031Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-05-29T17:24:32.032Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8081 (http) with context path ''
+[2021-05-29T17:24:32.032Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ProductsApplication in 6.072 seconds (JVM running for 6.944)
+[2021-05-29T17:24:52.052Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8081-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-05-29T17:24:52.052Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8081-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-05-29T17:24:52.052Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8081-exec-2] [547] [INFO ] Completed initialization in 12 ms
+[2021-05-29T17:24:52.052Z] [com.edusol.products.controller.ProductController] [http-nio-8081-exec-2] [33] [INFO ] [Product [productId=1, name=Mobile, price=15000.0, category=electronic], Product [productId=2, name=Laptop, price=45000.0, category=electronic], Product [productId=3, name=Books, price=1500.0, category=education], Product [productId=4, name=bat, price=2500.0, category=Sport], Product [productId=6, name=cd, price=60000.0, category=x], Product [productId=7, name=bcd, price=5000.0, category=xy], Product [productId=8, name=abcd, price=54000.0, category=xyz], Product [productId=9, name=abcde, price=55000.0, category=wxyz]]
+[2021-05-29T17:25:11.011Z] [com.edusol.products.service.ProductService] [http-nio-8081-exec-3] [47] [INFO ] Product [productId=6, name=null, price=56000.0, category=null]
+[2021-05-29T17:25:11.011Z] [com.edusol.products.service.ProductService] [http-nio-8081-exec-3] [59] [INFO ] Product Added Successfully.
+[2021-05-29T17:26:00.000Z] [com.edusol.products.service.ProductService] [http-nio-8081-exec-4] [42] [INFO ] electronic
+[2021-05-29T17:26:36.036Z] [com.edusol.products.controller.ProductController] [http-nio-8081-exec-5] [33] [INFO ] [Product [productId=1, name=Mobile, price=15000.0, category=electronic], Product [productId=2, name=Laptop, price=45000.0, category=electronic], Product [productId=3, name=Books, price=1500.0, category=education], Product [productId=4, name=bat, price=2500.0, category=Sport], Product [productId=6, name=cd, price=56000.0, category=x], Product [productId=7, name=bcd, price=5000.0, category=xy], Product [productId=8, name=abcd, price=54000.0, category=xyz], Product [productId=9, name=abcde, price=55000.0, category=wxyz]]
+[2021-05-29T17:28:01.001Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [SpringContextShutdownHook] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-05-29T17:28:01.001Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringContextShutdownHook] [601] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-29T17:28:01.001Z] [com.zaxxer.hikari.HikariDataSource] [SpringContextShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2021-05-29T17:28:01.001Z] [com.zaxxer.hikari.HikariDataSource] [SpringContextShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2021-05-29T17:32:15.015Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ProductsApplication on mayur-Lenovo-G580 with PID 5588 (/home/mayur/Desktop/java prjct/products/target/classes started by mayur in /home/mayur/Desktop/java prjct/products)
+[2021-05-29T17:32:15.015Z] [org.springframework.boot.SpringApplication] [main] [648] [INFO ] No active profile set, falling back to default profiles: default
+[2021-05-29T17:32:19.019Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [127] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-05-29T17:32:19.019Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [187] [INFO ] Finished Spring Data repository scanning in 171ms. Found 1 JPA repository interfaces.
+[2021-05-29T17:32:21.021Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8081 (http)
+[2021-05-29T17:32:21.021Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-05-29T17:32:21.021Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.45]
+[2021-05-29T17:32:22.022Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-05-29T17:32:22.022Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [285] [INFO ] Root WebApplicationContext: initialization completed in 5667 ms
+[2021-05-29T17:32:22.022Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-05-29T17:32:23.023Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.30.Final
+[2021-05-29T17:32:23.023Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-05-29T17:32:23.023Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2021-05-29T17:32:25.025Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2021-05-29T17:32:25.025Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2021-05-29T17:32:26.026Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-05-29T17:32:26.026Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [419] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-29T17:32:27.027Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [220] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-05-29T17:32:27.027Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-05-29T17:32:28.028Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8081 (http) with context path ''
+[2021-05-29T17:32:28.028Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ProductsApplication in 14.199 seconds (JVM running for 16.965)
+[2021-05-29T17:32:57.057Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8081-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-05-29T17:32:57.057Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8081-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-05-29T17:32:57.057Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8081-exec-1] [547] [INFO ] Completed initialization in 39 ms
+[2021-05-29T17:32:57.057Z] [com.edusol.products.service.ProductService] [http-nio-8081-exec-1] [47] [INFO ] Product [productId=1, name=null, price=24000.0, category=null]
+[2021-05-29T17:32:58.058Z] [com.edusol.products.service.ProductService] [http-nio-8081-exec-1] [59] [INFO ] Product Added Successfully.
+[2021-05-29T17:34:32.032Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [SpringContextShutdownHook] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-05-29T17:34:32.032Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringContextShutdownHook] [601] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-29T17:34:32.032Z] [com.zaxxer.hikari.HikariDataSource] [SpringContextShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2021-05-29T17:34:32.032Z] [com.zaxxer.hikari.HikariDataSource] [SpringContextShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2021-05-29T17:34:39.039Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ProductsApplication on mayur-Lenovo-G580 with PID 5707 (/home/mayur/Desktop/java prjct/products/target/classes started by mayur in /home/mayur/Desktop/java prjct/products)
+[2021-05-29T17:34:39.039Z] [org.springframework.boot.SpringApplication] [main] [648] [INFO ] No active profile set, falling back to default profiles: default
+[2021-05-29T17:34:41.041Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [127] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-05-29T17:34:41.041Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [187] [INFO ] Finished Spring Data repository scanning in 90ms. Found 1 JPA repository interfaces.
+[2021-05-29T17:34:42.042Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8081 (http)
+[2021-05-29T17:34:42.042Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-05-29T17:34:42.042Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.45]
+[2021-05-29T17:34:42.042Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-05-29T17:34:42.042Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [285] [INFO ] Root WebApplicationContext: initialization completed in 2268 ms
+[2021-05-29T17:34:42.042Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-05-29T17:34:42.042Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.30.Final
+[2021-05-29T17:34:42.042Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-05-29T17:34:42.042Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2021-05-29T17:34:43.043Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2021-05-29T17:34:43.043Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2021-05-29T17:34:44.044Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-05-29T17:34:44.044Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [419] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-29T17:34:45.045Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [220] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-05-29T17:34:45.045Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-05-29T17:34:45.045Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8081 (http) with context path ''
+[2021-05-29T17:34:45.045Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ProductsApplication in 6.313 seconds (JVM running for 7.178)
+[2021-05-29T17:34:59.059Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8081-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-05-29T17:34:59.059Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8081-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-05-29T17:34:59.059Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8081-exec-2] [547] [INFO ] Completed initialization in 12 ms
+[2021-05-29T17:35:00.000Z] [com.edusol.products.service.ProductService] [http-nio-8081-exec-2] [47] [INFO ] Product [productId=1, name=null, price=34000.0, category=null]
+[2021-05-29T17:35:00.000Z] [com.edusol.products.service.ProductService] [http-nio-8081-exec-2] [59] [INFO ] Product Updated Successfully.
+[2021-05-29T17:37:45.045Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [SpringContextShutdownHook] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-05-29T17:37:45.045Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringContextShutdownHook] [601] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-29T17:37:45.045Z] [com.zaxxer.hikari.HikariDataSource] [SpringContextShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2021-05-29T17:37:45.045Z] [com.zaxxer.hikari.HikariDataSource] [SpringContextShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2021-05-29T21:22:30.030Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ProductsApplication on mayur-Lenovo-G580 with PID 3179 (/home/mayur/Desktop/java prjct/products/target/classes started by mayur in /home/mayur/Desktop/java prjct/products)
+[2021-05-29T21:22:30.030Z] [org.springframework.boot.SpringApplication] [main] [648] [INFO ] No active profile set, falling back to default profiles: default
+[2021-05-29T21:22:33.033Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [127] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-05-29T21:22:33.033Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [187] [INFO ] Finished Spring Data repository scanning in 145ms. Found 1 JPA repository interfaces.
+[2021-05-29T21:22:35.035Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8081 (http)
+[2021-05-29T21:22:35.035Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-05-29T21:22:35.035Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.45]
+[2021-05-29T21:22:36.036Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-05-29T21:22:36.036Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [285] [INFO ] Root WebApplicationContext: initialization completed in 5893 ms
+[2021-05-29T21:22:37.037Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-05-29T21:22:37.037Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.30.Final
+[2021-05-29T21:22:37.037Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-05-29T21:22:38.038Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2021-05-29T21:22:39.039Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2021-05-29T21:22:39.039Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2021-05-29T21:22:40.040Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-05-29T21:22:40.040Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [419] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-29T21:22:41.041Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [220] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-05-29T21:22:42.042Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-05-29T21:22:42.042Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8081 (http) with context path ''
+[2021-05-29T21:22:42.042Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ProductsApplication in 14.165 seconds (JVM running for 16.025)
+[2021-05-29T21:23:37.037Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8081-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-05-29T21:23:37.037Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8081-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-05-29T21:23:37.037Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8081-exec-1] [547] [INFO ] Completed initialization in 12 ms
+[2021-05-29T21:23:38.038Z] [com.edusol.products.controller.ProductController] [http-nio-8081-exec-1] [33] [INFO ] [Product [productId=1, name=Mobile, price=34000.0, category=electronic], Product [productId=2, name=Laptop, price=45000.0, category=electronic], Product [productId=3, name=Books, price=1500.0, category=education], Product [productId=4, name=bat, price=2500.0, category=Sport], Product [productId=6, name=cd, price=56000.0, category=x], Product [productId=7, name=bcd, price=5000.0, category=xy], Product [productId=8, name=abcd, price=54000.0, category=xyz], Product [productId=9, name=abcde, price=55000.0, category=wxyz]]
+[2021-05-29T21:24:35.035Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8081-exec-3] [175] [ERROR] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: class java.util.Optional cannot be cast to class java.util.List (java.util.Optional and java.util.List are in module java.base of loader 'bootstrap')] with root cause
+java.lang.ClassCastException: class java.util.Optional cannot be cast to class java.util.List (java.util.Optional and java.util.List are in module java.base of loader 'bootstrap')
+	at com.edusol.products.controller.ProductController.getProductById(ProductController.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[2021-05-29T21:26:13.013Z] [com.edusol.products.service.ProductService] [http-nio-8081-exec-5] [42] [INFO ] electronic
+[2021-05-29T21:29:49.049Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [SpringContextShutdownHook] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-05-29T21:29:49.049Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringContextShutdownHook] [601] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-29T21:29:49.049Z] [com.zaxxer.hikari.HikariDataSource] [SpringContextShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2021-05-29T21:29:49.049Z] [com.zaxxer.hikari.HikariDataSource] [SpringContextShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2021-05-30T10:52:19.019Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ProductsApplication on mayur-Lenovo-G580 with PID 7155 (/home/mayur/Desktop/java prjct/products/target/classes started by mayur in /home/mayur/Desktop/java prjct/products)
+[2021-05-30T10:52:19.019Z] [org.springframework.boot.SpringApplication] [restartedMain] [648] [INFO ] No active profile set, falling back to default profiles: default
+[2021-05-30T10:52:20.020Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [225] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2021-05-30T10:52:20.020Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [225] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2021-05-30T10:52:22.022Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [127] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-05-30T10:52:23.023Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [187] [INFO ] Finished Spring Data repository scanning in 197ms. Found 1 JPA repository interfaces.
+[2021-05-30T10:52:25.025Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8081 (http)
+[2021-05-30T10:52:25.025Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-05-30T10:52:25.025Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.45]
+[2021-05-30T10:52:25.025Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-05-30T10:52:25.025Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [285] [INFO ] Root WebApplicationContext: initialization completed in 5603 ms
+[2021-05-30T10:52:26.026Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPool-1 - Starting...
+[2021-05-30T10:52:26.026Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPool-1 - Start completed.
+[2021-05-30T10:52:26.026Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [restartedMain] [73] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/product'
+[2021-05-30T10:52:27.027Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-05-30T10:52:27.027Z] [org.hibernate.Version] [restartedMain] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.30.Final
+[2021-05-30T10:52:28.028Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [restartedMain] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-05-30T10:52:29.029Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2021-05-30T10:52:30.030Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-05-30T10:52:30.030Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [419] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-30T10:52:30.030Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-05-30T10:52:31.031Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [220] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-05-30T10:52:31.031Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-05-30T10:52:32.032Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8081 (http) with context path ''
+[2021-05-30T10:52:32.032Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ProductsApplication in 16.354 seconds (JVM running for 19.36)
+[2021-05-30T10:55:42.042Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-4] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-05-30T10:55:42.042Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [Thread-4] [601] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-30T10:55:42.042Z] [com.zaxxer.hikari.HikariDataSource] [Thread-4] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2021-05-30T10:55:42.042Z] [com.zaxxer.hikari.HikariDataSource] [Thread-4] [352] [INFO ] HikariPool-1 - Shutdown completed.
+[2021-05-30T10:55:42.042Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ProductsApplication on mayur-Lenovo-G580 with PID 7155 (/home/mayur/Desktop/java prjct/products/target/classes started by mayur in /home/mayur/Desktop/java prjct/products)
+[2021-05-30T10:55:42.042Z] [org.springframework.boot.SpringApplication] [restartedMain] [648] [INFO ] No active profile set, falling back to default profiles: default
+[2021-05-30T10:55:42.042Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [127] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-05-30T10:55:42.042Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [187] [INFO ] Finished Spring Data repository scanning in 13ms. Found 1 JPA repository interfaces.
+[2021-05-30T10:55:43.043Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8081 (http)
+[2021-05-30T10:55:43.043Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-05-30T10:55:43.043Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.45]
+[2021-05-30T10:55:43.043Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-05-30T10:55:43.043Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [285] [INFO ] Root WebApplicationContext: initialization completed in 701 ms
+[2021-05-30T10:55:43.043Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPool-2 - Starting...
+[2021-05-30T10:55:43.043Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPool-2 - Start completed.
+[2021-05-30T10:55:43.043Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [restartedMain] [73] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/product'
+[2021-05-30T10:55:43.043Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-05-30T10:55:43.043Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2021-05-30T10:55:43.043Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-05-30T10:55:43.043Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [419] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-30T10:55:43.043Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-05-30T10:55:43.043Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [220] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-05-30T10:55:43.043Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-05-30T10:55:43.043Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8081 (http) with context path ''
+[2021-05-30T10:55:43.043Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ProductsApplication in 1.511 seconds (JVM running for 210.592)
+[2021-05-30T10:55:43.043Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2021-05-30T10:56:01.001Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8081-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-05-30T10:56:01.001Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8081-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-05-30T10:56:01.001Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8081-exec-2] [547] [INFO ] Completed initialization in 13 ms
+[2021-05-30T10:56:01.001Z] [com.edusol.products.controller.ProductController] [http-nio-8081-exec-2] [33] [INFO ] [Product [productId=1, name=Mobile, price=34000.0, category=electronic], Product [productId=2, name=Laptop, price=45000.0, category=electronic], Product [productId=3, name=Books, price=1500.0, category=education], Product [productId=4, name=bat, price=2500.0, category=Sport], Product [productId=6, name=cd, price=56000.0, category=x], Product [productId=7, name=bcd, price=5000.0, category=xy], Product [productId=8, name=abcd, price=54000.0, category=xyz], Product [productId=9, name=abcde, price=55000.0, category=wxyz]]
+[2021-05-30T10:56:22.022Z] [com.edusol.products.service.ProductService] [http-nio-8081-exec-3] [64] [INFO ] Product [productId=1, name=null, price=55000.0, category=null]
+[2021-05-30T10:56:56.056Z] [com.edusol.products.service.ProductService] [http-nio-8081-exec-4] [61] [ERROR] Unable to find com.edusol.products.model.Product with id 11
+[2021-05-30T10:58:20.020Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-8] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-05-30T10:58:20.020Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [Thread-8] [601] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-30T10:58:20.020Z] [com.zaxxer.hikari.HikariDataSource] [Thread-8] [350] [INFO ] HikariPool-2 - Shutdown initiated...
+[2021-05-30T10:58:20.020Z] [com.zaxxer.hikari.HikariDataSource] [Thread-8] [352] [INFO ] HikariPool-2 - Shutdown completed.
+[2021-05-30T10:58:20.020Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ProductsApplication on mayur-Lenovo-G580 with PID 7155 (/home/mayur/Desktop/java prjct/products/target/classes started by mayur in /home/mayur/Desktop/java prjct/products)
+[2021-05-30T10:58:20.020Z] [org.springframework.boot.SpringApplication] [restartedMain] [648] [INFO ] No active profile set, falling back to default profiles: default
+[2021-05-30T10:58:20.020Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [127] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-05-30T10:58:20.020Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [187] [INFO ] Finished Spring Data repository scanning in 9ms. Found 1 JPA repository interfaces.
+[2021-05-30T10:58:21.021Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8081 (http)
+[2021-05-30T10:58:21.021Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-05-30T10:58:21.021Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.45]
+[2021-05-30T10:58:21.021Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-05-30T10:58:21.021Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [285] [INFO ] Root WebApplicationContext: initialization completed in 497 ms
+[2021-05-30T10:58:21.021Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPool-3 - Starting...
+[2021-05-30T10:58:21.021Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPool-3 - Start completed.
+[2021-05-30T10:58:21.021Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [restartedMain] [73] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/product'
+[2021-05-30T10:58:21.021Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-05-30T10:58:21.021Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2021-05-30T10:58:21.021Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-05-30T10:58:21.021Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [419] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-30T10:58:21.021Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-05-30T10:58:21.021Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [220] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-05-30T10:58:21.021Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-05-30T10:58:21.021Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8081 (http) with context path ''
+[2021-05-30T10:58:21.021Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ProductsApplication in 1.101 seconds (JVM running for 368.331)
+[2021-05-30T10:58:21.021Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2021-05-30T10:58:38.038Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8081-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-05-30T10:58:38.038Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8081-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-05-30T10:58:38.038Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8081-exec-2] [547] [INFO ] Completed initialization in 8 ms
+[2021-05-30T10:58:38.038Z] [com.edusol.products.service.ProductService] [http-nio-8081-exec-2] [64] [INFO ] Product updated Successfully.
+[2021-05-30T11:01:08.008Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-13] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-05-30T11:01:08.008Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [Thread-13] [601] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-30T11:01:08.008Z] [com.zaxxer.hikari.HikariDataSource] [Thread-13] [350] [INFO ] HikariPool-3 - Shutdown initiated...
+[2021-05-30T11:01:08.008Z] [com.zaxxer.hikari.HikariDataSource] [Thread-13] [352] [INFO ] HikariPool-3 - Shutdown completed.
+[2021-05-30T11:01:08.008Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ProductsApplication on mayur-Lenovo-G580 with PID 7155 (/home/mayur/Desktop/java prjct/products/target/classes started by mayur in /home/mayur/Desktop/java prjct/products)
+[2021-05-30T11:01:08.008Z] [org.springframework.boot.SpringApplication] [restartedMain] [648] [INFO ] No active profile set, falling back to default profiles: default
+[2021-05-30T11:01:08.008Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [127] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-05-30T11:01:08.008Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [187] [INFO ] Finished Spring Data repository scanning in 8ms. Found 1 JPA repository interfaces.
+[2021-05-30T11:01:08.008Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8081 (http)
+[2021-05-30T11:01:08.008Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-05-30T11:01:08.008Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.45]
+[2021-05-30T11:01:08.008Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-05-30T11:01:08.008Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [285] [INFO ] Root WebApplicationContext: initialization completed in 453 ms
+[2021-05-30T11:01:08.008Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPool-4 - Starting...
+[2021-05-30T11:01:08.008Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPool-4 - Start completed.
+[2021-05-30T11:01:08.008Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [restartedMain] [73] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/product'
+[2021-05-30T11:01:08.008Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-05-30T11:01:08.008Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2021-05-30T11:01:09.009Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-05-30T11:01:09.009Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [419] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-30T11:01:09.009Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-05-30T11:01:09.009Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [220] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-05-30T11:01:09.009Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-05-30T11:01:09.009Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8081 (http) with context path ''
+[2021-05-30T11:01:09.009Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ProductsApplication in 1.048 seconds (JVM running for 536.033)
+[2021-05-30T11:01:09.009Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2021-05-30T11:01:21.021Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8081-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-05-30T11:01:21.021Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8081-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-05-30T11:01:21.021Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8081-exec-2] [547] [INFO ] Completed initialization in 3 ms
+[2021-05-30T11:01:21.021Z] [com.edusol.products.service.ProductService] [http-nio-8081-exec-2] [75] [INFO ] Product deleted Successfully.
+[2021-05-30T11:29:46.046Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-18] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-05-30T11:29:46.046Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [Thread-18] [601] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-30T11:29:46.046Z] [com.zaxxer.hikari.HikariDataSource] [Thread-18] [350] [INFO ] HikariPool-4 - Shutdown initiated...
+[2021-05-30T11:29:46.046Z] [com.zaxxer.hikari.HikariDataSource] [Thread-18] [352] [INFO ] HikariPool-4 - Shutdown completed.
+[2021-05-30T11:29:46.046Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ProductsApplication on mayur-Lenovo-G580 with PID 7155 (/home/mayur/Desktop/java prjct/products/target/classes started by mayur in /home/mayur/Desktop/java prjct/products)
+[2021-05-30T11:29:46.046Z] [org.springframework.boot.SpringApplication] [restartedMain] [648] [INFO ] No active profile set, falling back to default profiles: default
+[2021-05-30T11:29:47.047Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [127] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-05-30T11:29:47.047Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [187] [INFO ] Finished Spring Data repository scanning in 1ms. Found 0 JPA repository interfaces.
+[2021-05-30T11:29:47.047Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8081 (http)
+[2021-05-30T11:29:47.047Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-05-30T11:29:47.047Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.45]
+[2021-05-30T11:29:47.047Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-05-30T11:29:47.047Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [285] [INFO ] Root WebApplicationContext: initialization completed in 349 ms
+[2021-05-30T11:29:47.047Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPool-5 - Starting...
+[2021-05-30T11:29:47.047Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPool-5 - Start completed.
+[2021-05-30T11:29:47.047Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [restartedMain] [73] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/product'
+[2021-05-30T11:29:47.047Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-05-30T11:29:47.047Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2021-05-30T11:29:47.047Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-05-30T11:29:47.047Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [419] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-30T11:29:47.047Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-05-30T11:29:47.047Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [220] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-05-30T11:29:47.047Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-05-30T11:29:47.047Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8081 (http) with context path ''
+[2021-05-30T11:29:47.047Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ProductsApplication in 0.717 seconds (JVM running for 2254.253)
+[2021-05-30T11:29:47.047Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2021-05-30T11:39:09.009Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [SpringContextShutdownHook] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-05-30T11:39:09.009Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringContextShutdownHook] [601] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-30T11:39:09.009Z] [com.zaxxer.hikari.HikariDataSource] [SpringContextShutdownHook] [350] [INFO ] HikariPool-5 - Shutdown initiated...
+[2021-05-30T11:39:09.009Z] [com.zaxxer.hikari.HikariDataSource] [SpringContextShutdownHook] [352] [INFO ] HikariPool-5 - Shutdown completed.
+[2021-06-06T10:24:03.003Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ProductsApplication on mayur-Lenovo-G580 with PID 4567 (/home/mayur/Desktop/java prjct/products/target/classes started by mayur in /home/mayur/Desktop/java prjct/products)
+[2021-06-06T10:24:03.003Z] [org.springframework.boot.SpringApplication] [restartedMain] [648] [INFO ] No active profile set, falling back to default profiles: default
+[2021-06-06T10:24:03.003Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [225] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2021-06-06T10:24:03.003Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [225] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2021-06-06T10:24:05.005Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [127] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-06-06T10:24:06.006Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [187] [INFO ] Finished Spring Data repository scanning in 158ms. Found 1 JPA repository interfaces.
+[2021-06-06T10:24:07.007Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8081 (http)
+[2021-06-06T10:24:07.007Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-06-06T10:24:07.007Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.45]
+[2021-06-06T10:24:07.007Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-06-06T10:24:07.007Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [285] [INFO ] Root WebApplicationContext: initialization completed in 4153 ms
+[2021-06-06T10:24:07.007Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPool-1 - Starting...
+[2021-06-06T10:24:08.008Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPool-1 - Start completed.
+[2021-06-06T10:24:08.008Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [restartedMain] [73] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/product'
+[2021-06-06T10:24:09.009Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-06-06T10:24:09.009Z] [org.hibernate.Version] [restartedMain] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.30.Final
+[2021-06-06T10:24:10.010Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [restartedMain] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-06-06T10:24:10.010Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[2021-06-06T10:24:11.011Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-06-06T10:24:11.011Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [419] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-06-06T10:24:11.011Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-06-06T10:24:12.012Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [220] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-06-06T10:24:12.012Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-06-06T10:24:13.013Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8081 (http) with context path ''
+[2021-06-06T10:24:13.013Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ProductsApplication in 11.504 seconds (JVM running for 13.503)
+[2021-06-06T10:50:19.019Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8081-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-06-06T10:50:19.019Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8081-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-06-06T10:50:19.019Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8081-exec-1] [547] [INFO ] Completed initialization in 9 ms
+[2021-06-06T10:50:20.020Z] [com.edusol.products.controller.ProductController] [http-nio-8081-exec-1] [33] [INFO ] [Product [productId=1, name=Mobile, price=54000.0, category=electronic], Product [productId=2, name=Laptop, price=45000.0, category=electronic], Product [productId=3, name=Books, price=1500.0, category=education], Product [productId=4, name=bat, price=2500.0, category=Sport], Product [productId=6, name=cd, price=56000.0, category=x], Product [productId=7, name=bcd, price=5000.0, category=xy], Product [productId=8, name=abcd, price=54000.0, category=xyz]]
+[2021-06-06T10:50:37.037Z] [com.edusol.products.service.ProductService] [http-nio-8081-exec-5] [42] [INFO ] electronic
+[2021-06-06T11:37:22.022Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [SpringContextShutdownHook] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-06-06T11:37:22.022Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [SpringContextShutdownHook] [601] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-06-06T11:37:22.022Z] [com.zaxxer.hikari.HikariDataSource] [SpringContextShutdownHook] [350] [INFO ] HikariPool-1 - Shutdown initiated...
+[2021-06-06T11:37:22.022Z] [com.zaxxer.hikari.HikariDataSource] [SpringContextShutdownHook] [352] [INFO ] HikariPool-1 - Shutdown completed.
