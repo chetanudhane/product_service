@@ -52,6 +52,7 @@ public class ProductController {
 	
 	@PutMapping("/update-product")
 	public Object updateProduct(@RequestBody Product product) {
+		logger.info("Product Details="+product.toString());
 		return productService.updateProduct(product);
 	}
 	
